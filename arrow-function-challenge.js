@@ -24,11 +24,11 @@ const averagePoints = (arr, subject) => {
     for (let i in arr) { //loop through the object students
         const studentObject = arr[i]; //access to each student
         let resultObject = studentObject.results; //values subject and grade for each student { maths: 90, english: 75, cad: 87 }
-        console.log(resultObject)
+        console.log(resultObject);
         if (subject in resultObject) {
 
             oneResultInSubject = resultObject[subject];
-            console.log(oneResultInSubject)
+            console.log(oneResultInSubject);
             q++;
             allResultsInSubject += parseInt(oneResultInSubject);
         }
@@ -39,5 +39,5 @@ const averagePoints = (arr, subject) => {
 };
 
 
-let result = averagePoints(students, "english")
+let result = averagePoints(students, "english");
 console.log(result);
