@@ -1,3 +1,5 @@
+// Execute a function on all elements
+
 let students = [{
     name: 'John',
     subjects: ['maths', 'english', 'cad'],
