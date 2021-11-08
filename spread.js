@@ -1,6 +1,7 @@
 /**
- * To run this file in Gitpod, use the 
- * command node the-spread-operator.js in the terminal
+ * Spread operator - 
+ * that consists of three dots (...). 
+ * The spread operator allows you to spread out elements of an iterable object such as an array,a  map, or a set. 
  */
 
 // No spread operator

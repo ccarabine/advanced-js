@@ -1,5 +1,8 @@
 /**
- * To run this file in Gitpod, use the 
+ * The reduce() method executes a reducer function for each value of an array.
+ * reduce() returns a single value which is the function's accumulated result.
+ * reduce() does not execute the function for empty array elements.
+ * reduce() does not change the original array.
  * command node reduce.js in the terminal
  */
 // In this video, we’ve explored how we can use the reduce method to solve simple problems like summing an array of numbers.

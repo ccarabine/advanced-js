@@ -1,7 +1,8 @@
 /**
- * To run this file in Gitpod, use the 
- * command node rest-parameter-syntax.js in the terminal
- */
+ * ES6 provides a new kind of parameter so-called rest parameter that has a prefix of three dots (...).
+ *  A rest parameter allows you to represent an indefinite number of arguments as an array.
+ * 
+ * */
 
 // Regular function call 
 const sumAll = (a, b, c) => a + b + c;

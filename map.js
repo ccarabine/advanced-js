@@ -13,25 +13,25 @@ let results = [];
 for (let num of nums) {
     results.push(num * 2);
 }
-//console.log(results); [ 2, 4, 6, 8, 10 ]
+//console.log(results); //[ 2, 4, 6, 8, 10 ]
 
 // Using map()
 const multByTwo = function(nums) {
     return nums * 2;
 };
 const mapResults = nums.map(multByTwo);
-//console.log(mapResults);
+//console.log(mapResults);//[ 2, 4, 6, 8, 10 ]
 
 
 // Simplified w/ map()
 const mapResults2 = nums.map(function(nums) {
     return nums * 2;
 });
-//console.log(mapResults2);
+//console.log(mapResults2);//[ 2, 4, 6, 8, 10 ]
 
 // Simplfied w/ map() + arrow function
 const mapResults3 = nums.map(num => num * 2);
-//console.log(mapResults3);
+//console.log(mapResults3);//[ 2, 4, 6, 8, 10 ]
 
 
 // With objects:
