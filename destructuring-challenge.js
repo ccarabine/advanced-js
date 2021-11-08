@@ -24,7 +24,20 @@ let students = [{
         results: { science: 93, english: 87, art: 95 },
     }
 ];
+//model answer
 
+const makeList = (arr, student) => {
+    for (let itm of arr) {
+        if (itm.name == student) {
+            return itm.subjects;
+        }
+    }
+};
+
+let [first, second, ...rest] = makeList(students, 'John');
+console.log(first, second, rest);
+
+/*myanswer
 const makeList = (arr, student) => {
     let list = [];
     for (let i in arr) {
@@ -37,4 +50,4 @@ const makeList = (arr, student) => {
 
 let subjectList = makeList(students, "John");
 let [first, second, ...rest] = subjectList;
-console.log(first, second, rest); //art cad [ 'english', 'maths', 'science' ]
+console.log(first, second, rest); //art cad [ 'english', 'maths', 'science' ]*/
