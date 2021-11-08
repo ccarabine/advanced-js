@@ -1,5 +1,8 @@
 /**
- * To run this file in Gitpod, use the 
+ * filters 
+ * filter() creates a new array filled with elements that pass a test provided by a function.
+ * filter() does not execute the function for empty elements.
+ * filter() does not change the original array.
  * command node filter.js in the terminal
  */
 
